@@ -75,7 +75,7 @@
 
 
     async function sendToBackend(userText) {
-            const res = await fetch("http://localhost:5000/api/chat", {
+            const res = await fetch("https://zaraai.onrender.com/api/chat", {
         method: "POST",
     headers: {"Content-Type": "application/json" },
     body: JSON.stringify({message: userText })
@@ -85,7 +85,7 @@
     return data.reply;
         }
     async function generateImage(prompt) {
-            const res = await fetch("http://localhost:5000/api/image", {
+            const res = await fetch("https://zaraai.onrender.com/api/image", {
         method: "POST",
     headers: {"Content-Type": "application/json" },
     body: JSON.stringify({prompt})
@@ -95,7 +95,7 @@
     return data.image;
         }
     async function generateVideo(prompt) {
-        const res = await fetch("http://localhost:5000/api/video", {
+        const res = await fetch("https://zaraai.onrender.com/api/video", {
         method: "POST",
     headers: {"Content-Type": "application/json" },
     body: JSON.stringify({prompt})
