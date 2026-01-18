@@ -10,8 +10,8 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
-const key=process.env.Bytez;
-// const key = "e1a435eeb4ef84b6e8d06e90e1d8d3f5";
+const key=process.env.BYTEZ;
+
 
 const sdk = new Bytez(key);
 const model = sdk.model("Qwen/Qwen2.5-1.5B-Instruct")
