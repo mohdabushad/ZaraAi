@@ -659,8 +659,8 @@ body.dark-theme textarea {
     display: none;
     flex-direction: column;
     position: absolute;
-    bottom: 70px;
-    right: 130px;
+    bottom: 80px;
+    right: 160px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
