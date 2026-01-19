@@ -14,7 +14,7 @@ const key=process.env.BYTEZ;
 
 
 const sdk = new Bytez(key);
-const model = sdk.model("Qwen/Qwen2.5-1.5B-Instruct")
+const model = sdk.model("Qwen/Qwen2.5-3B-Instruct")
 // 
 const videoModel = sdk.model("openai/sora-2")
 
