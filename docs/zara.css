@@ -98,7 +98,11 @@ body.active-chat .editable-input {
 body.dark-theme .body-wave {
     background: radial-gradient(circle, rgb(116, 255, 174) 0%, transparent 70%);
 }
-
+.chat-container .center-heading .dev {
+    font-size: 25px;
+    margin: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
 /* --- Siri-like mic waves --- */
 .siri-wrap {
@@ -642,7 +646,11 @@ body.dark-theme textarea {
         max-width: 250px;
 
     }
-
+    .chat-container .center-heading .dev {
+        font-size: 20px;
+        margin: 5px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
 
 
 
